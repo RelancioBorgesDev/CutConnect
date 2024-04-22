@@ -9,9 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        intro: "url('/intro.jpg')",
+      },
+      fontFamily: {
+        "oleo-script": ['Oleo Script', 'system-ui'],
+      },
+      colors: {
+        "main-yellow": "#FDE74C",
       },
     },
   },
