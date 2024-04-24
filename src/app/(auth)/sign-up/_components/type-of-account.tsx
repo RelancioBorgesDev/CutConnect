@@ -25,7 +25,7 @@ export default function TypeOfAccount({
               <h1 className="text-4xl font-bold text-center mb-8">
                 Escolha o tipo de conta que deseja criar
               </h1>
-              <div className="flex gap-12">
+              <div className="flex gap-12 max-lg:flex-col">
                 <AccountType
                   handleClose={handleClose}
                   icon={PocketKnife}
