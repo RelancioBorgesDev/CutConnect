@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "@/assets/Logo.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,9 +21,11 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <button className="bg-main-yellow px-4 py-2 text-zinc-950 font-bold rounded-sm text-xl">
-          Entrar
-        </button>
+        <Link href={"/sign-in"}>
+          <button className="bg-main-yellow px-4 py-2 text-zinc-950 font-bold rounded-sm text-xl">
+            Entrar
+          </button>
+        </Link>
       </header>
       <section className="text-main-yellow h-[calc(100vh-112px)] flex flex-col justify-center items-center text-center gap-8 px-16">
         <h1 className="text-7xl font-bold">A sua nova experiência de estilo</h1>

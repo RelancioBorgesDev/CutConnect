@@ -12,7 +12,7 @@ const config: Config = {
         intro: "url('/intro.jpg')",
       },
       fontFamily: {
-        "oleo-script": ['Oleo Script', 'system-ui'],
+        "oleo-script": ["Oleo Script", "system-ui"],
       },
       colors: {
         "main-yellow": "#FDE74C",
