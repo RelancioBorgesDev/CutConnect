@@ -9,7 +9,7 @@ export default function FormContainer({
   ...props
 }: FormContainerProps) {
   return (
-    <form className="w-full flex flex-col items-center gap-8" {...props}>
+    <form className="w-full flex flex-col items-center gap-8 relative" {...props}>
       {children}
     </form>
   );
