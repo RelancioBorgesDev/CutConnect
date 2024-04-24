@@ -27,17 +27,21 @@ export default function Home() {
           </button>
         </Link>
       </header>
-      <section className="text-main-yellow h-[calc(100vh-112px)] flex flex-col justify-center items-center text-center gap-8 px-16">
-        <h1 className="text-7xl font-bold">A sua nova experiência de estilo</h1>
+      <section className="w-[800px] text-main-yellow h-[calc(100vh-112px)] flex flex-col justify-center  text-start gap-8 px-16">
+        <h1 className="text-7xl font-bold drop-shadow-2xl">
+          A sua nova experiência de estilo
+        </h1>
         <h4 className="text-xl font-semibold">
           Entre no mundo da beleza masculina, onde cada corte é uma obra-prima,
           cada cliente é uma prioridade e cada barbearia é uma comunidade.
           Bem-vindo à sua nova experiência de estilo. Bem-vindo à nossa família
           de barbearias.
         </h4>
-        <button className="bg-main-yellow px-4 py-2 text-zinc-950 font-bold rounded-sm text-xl">
-          Crie sua conta já !
-        </button>
+        <Link href={"/sign-up"}>
+          <button className="bg-main-yellow px-4 py-2 text-zinc-950 font-bold rounded-lg text-xl">
+            Crie sua conta já !
+          </button>
+        </Link>
       </section>
     </main>
   );

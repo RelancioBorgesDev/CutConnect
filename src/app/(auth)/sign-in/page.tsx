@@ -13,7 +13,7 @@ export default function SignIn() {
       <section className="bg-login w-full relative">
         <Image src={login} alt="asa" className="h-full opacity-70" />
         <Link href={"/"} className="absolute top-2 left-2">
-          <ArrowLeft className="text-main-yellow" size={54}/>
+          <ArrowLeft className="text-main-yellow" size={54} />
         </Link>
       </section>
       <section className="overflow-y-auto w-[60%] flex flex-col items-center px-16 py-12 gap-4">
@@ -76,7 +76,7 @@ export default function SignIn() {
           </div>
 
           <div className="fixed bottom-0 left-0 right-0">
-            <Link className="w-full" href={"/"}>
+            <Link className="w-full" href={"/sign-up"}>
               <div className="w-full flex items-center justify-between  bg-main-yellow p-4 text-zinc-950 font-extralight gap-4">
                 <span>
                   Não tem conta uma conta ?{" "}
