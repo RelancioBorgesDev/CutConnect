@@ -1,13 +1,14 @@
 import Image from "next/image";
 import logo from "@/assets/Logo.png";
 import Link from "next/link";
+import HamburguerMenu from "@/components/hamburguer-menu";
 
 export default function Home() {
   return (
     <main className="w-full h-screen bg-intro opacity-95">
-      <header className="flex justify-between items-center py-4 px-8">
+      <header className="flex justify-between items-center py-4 px-8 ">
         <Image src={logo} alt="Logo" />
-        <nav>
+        <nav className="max-lg:hidden">
           <ul className="flex items-center gap-8">
             <li className="text-main-yellow text-xl drop-shadow-xl">Sobre</li>
             <li className="text-main-yellow text-xl drop-shadow-xl">
@@ -21,13 +22,14 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <Link href={"/sign-in"}>
+        <Link href={"/sign-in"} className="max-lg:hidden">
           <button className="bg-main-yellow px-4 py-2 text-zinc-950 font-bold rounded-sm text-xl">
             Entrar
           </button>
         </Link>
+        <HamburguerMenu />
       </header>
-      <section className="w-[800px] text-main-yellow h-[calc(100vh-112px)] flex flex-col justify-center  text-start gap-8 px-16">
+      <section className="w-[800px] text-main-yellow h-[calc(100vh-112px)] flex flex-col justify-center  text-start gap-8 px-16 max-md:w-full">
         <h1 className="text-7xl font-bold drop-shadow-2xl">
           A sua nova experiência de estilo
         </h1>
