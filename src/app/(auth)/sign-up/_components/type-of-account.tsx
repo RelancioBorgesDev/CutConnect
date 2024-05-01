@@ -19,8 +19,9 @@ export default function TypeOfAccount({
   return (
     <>
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <main className="bg-main-yellow text-zinc-950  rounded-lg p-6">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 w-full h-screen">
+          <main className="bg-main-yellow text-zinc-950 w-full h-full rounded-lg p-6 flex flex-col items-center justify-center">
+            <GoBack icon={ArrowLeft} path="/" className="left-4"/>
             <div className="relative flex flex-col items-center">
               <h1 className="text-4xl font-bold text-center mb-8">
                 Escolha o tipo de conta que deseja criar

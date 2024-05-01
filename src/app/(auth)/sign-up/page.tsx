@@ -54,9 +54,7 @@ export default function SignUp() {
             <div className="w-full flex flex-row-reverse items-center justify-between  bg-main-yellow p-4 text-zinc-950 font-extralight gap-4">
               <span>
                 Já possui conta ?{" "}
-                <b className="font-bold text-yellow-800">
-                  Faça login
-                </b>
+                <b className="font-bold text-yellow-800">Faça login</b>
               </span>
               <span>
                 <ArrowLeft size={24} />

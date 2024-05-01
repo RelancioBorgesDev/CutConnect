@@ -70,7 +70,7 @@ export default function SignUpForm({
         <div className="w-full border-2 border-main-yellow h-1" />
       </div>
       <div className="w-full flex flex-col items-center gap-4">
-        <div className="w-fit flex items-center rounded-lg bg-main-yellow p-4 text-zinc-950 font-bold gap-4">
+        <div className="w-fit flex items-center rounded-lg bg-main-yellow p-4 text-zinc-950 font-bold gap-4 pb-4">
           <span>
             <GoogleLogo size={24} />
           </span>
