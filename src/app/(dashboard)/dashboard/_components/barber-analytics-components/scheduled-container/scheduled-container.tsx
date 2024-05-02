@@ -3,8 +3,8 @@ import React from "react";
 
 export default function ScheduledContainer() {
   return (
-    <div className="border-2 border-zinc-300 rounded-lg col-span-2 row-span-2 overflow-hidden max-lg:row-span-1">
-      <header className="flex items-center justify-between gap-2 border-b-2 px-4 py-3  text-zinc-950 font-bold uppercase">
+    <div className="h-fit border-2 border-zinc-300 rounded-lg col-span-2 row-span-2 overflow-hidden max-lg:row-span-1">
+      <header className="flex items-center justify-between gap-2 border-b-2 px-4 py-3 text-zinc-950 font-bold uppercase">
         <div className="flex items-center gap-2">
           <span className="rounded-full border-2 p-2 bg-white">
             <Calendar className="text-zinc-950" />

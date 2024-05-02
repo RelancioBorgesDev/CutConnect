@@ -1,12 +1,4 @@
-import {
-  Calendar,
-  DollarSign,
-  LineChart,
-  MoveDownLeft,
-  MoveUpRight,
-  Plus,
-  Store,
-} from "lucide-react";
+import { Calendar, MoveUpRight } from "lucide-react";
 import FinanceContainer from "./_components/barber-analytics-components/finance-container/finance-container";
 import RecentAccessContainer from "./_components/barber-analytics-components/recent-access-container/recent-access-container";
 import ScheduledContainer from "./_components/barber-analytics-components/scheduled-container/scheduled-container";
@@ -14,7 +6,6 @@ import ScheduledContainer from "./_components/barber-analytics-components/schedu
 export default function Dashboard() {
   return (
     <main className="grid grid-cols-2 grid-rows-2 gap-8 px-4 py-8 h-[100vh-160px] max-lg:flex max-lg:flex-col bg-white">
-      {/* Welcome div */}
       <div className="w-full flex flex-col flex-wrap gap-8 ">
         <h1 className="text-zinc-950 text-4xl font-bold drop-shadow-xl">
           Seja Bem Vindo, Usuario
@@ -46,10 +37,7 @@ export default function Dashboard() {
           />
         </section>
       </div>
-
       <RecentAccessContainer />
-
-      {/* Schedule Cuts */}
       <ScheduledContainer />
     </main>
   );

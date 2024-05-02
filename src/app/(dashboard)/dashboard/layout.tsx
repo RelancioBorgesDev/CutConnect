@@ -1,4 +1,5 @@
 import {
+  Calendar,
   History,
   Home,
   Palette,
@@ -63,6 +64,12 @@ export default function RootLayout({
             <li className="flex items-center gap-4 text-zinc-100">
               <History />
               <span>Histórico</span>
+            </li>
+          </Link>
+          <Link href={"/"}>
+            <li className="flex items-center gap-4 text-zinc-100">
+              <Calendar />
+              <span>Agendamentos</span>
             </li>
           </Link>
         </ul>
