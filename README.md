@@ -34,30 +34,37 @@ Reconhecimento da necessidade de um sistema que simplifique o processo de encont
 Certifique-se de ter o Node.js e o npm instalados em seu sistema.
 
 **Passo 1: Clonar o repositório**
+
 ```
 git clone https://github.com/RelancioBorgesDev/CutConnect.git
 ```
 
 **Passo 2: Acessar o diretório do projeto**
+
 ```
 cd CutConnect-main
 ```
 
 **Passo 3: Instalar as dependências do projeto**
+
 ```
 npm install
 ```
+
 ou
+
 ```
 yarn install
 ```
 
-
 **Passo 4: Executar o projeto em modo de desenvolvimento**
+
 ```
 npm run dev
 ```
+
 ou
+
 ```
 yarn dev
 ```

@@ -51,7 +51,7 @@ export default function SignUpForm({
           {renderIcon()}
           <span>Conta {selectedAccountType}</span>
         </div>
-        <h1 className="text-xl font-semibold drop-shadow-lg">
+        <h1 className="text-xl font-semibold drop-shadow-lg text-main-yellow">
           Cadastre-se de graça
         </h1>
       </HeaderContainer>

@@ -7,7 +7,7 @@ interface LabelProps extends ComponentProps<"label"> {
 
 export default function Label({ children, className, ...props }: LabelProps) {
   return (
-    <label className={twMerge("font-medium", className)} {...props}>
+    <label className={twMerge("font-medium text-main-yellow", className)} {...props}>
       {children}
     </label>
   );

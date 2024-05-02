@@ -14,7 +14,7 @@ export default function SignInForm() {
     <FormContainer>
       <HeaderContainer>
         <Image src={logo} alt="logo" />
-        <h1 className="text-xl font-semibold drop-shadow-lg">
+        <h1 className="text-xl font-semibold drop-shadow-lg text-main-yellow">
           Acesse a sua conta
         </h1>
       </HeaderContainer>
