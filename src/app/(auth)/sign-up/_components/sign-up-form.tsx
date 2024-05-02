@@ -7,7 +7,7 @@ import { GoogleLogo } from "phosphor-react";
 import logo from "@/assets/Logo.png";
 import UserForm from "./user-form";
 import { PocketKnife, Scissors, User } from "lucide-react";
-import BarberShopForm from "./barber-shop-form";
+import CutConnectForm from "./barber-shop-form";
 import BarberForm from "./barber-form";
 
 interface SignUpFormProps {
@@ -35,7 +35,7 @@ export default function SignUpForm({
       case "Cliente":
         return <UserForm />;
       case "Barbearia":
-        return <BarberShopForm />;
+        return <CutConnectForm />;
       case "Barbeiro":
         return <BarberForm />;
     }

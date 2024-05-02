@@ -3,7 +3,7 @@ import InputContainer from "../../components/input-container";
 import Label from "@/components/label";
 import Input from "@/components/input";
 
-export default function BarberShopForm() {
+export default function CutConnectForm() {
   return (
     <>
       <InputContainer>
